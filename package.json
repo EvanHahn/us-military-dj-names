@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "standard",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.5.1",
+    "standard": "^5.4.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "standard": {
+    "ignore": "dist"
+  }
+}
